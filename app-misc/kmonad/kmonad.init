@@ -1,0 +1,11 @@
+#!/sbin/openrc-run
+
+pidfile="/run/kmonad.pid"
+command="/usr/bin/kmonad"
+command_args="/etc/conf.d/kmonad/config.kbd"
+command_background=1
+
+depend() {
+	after coldplug
+	need localmount
+}
