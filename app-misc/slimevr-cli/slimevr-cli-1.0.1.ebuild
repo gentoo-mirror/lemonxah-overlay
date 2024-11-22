@@ -168,7 +168,7 @@ declare -A GIT_CRATES=(
 
 inherit cargo
 
-DESCRIPTION="SlimeVR Cli tool for interfacing with the SlimeVR server to send yaw and full reset requests"
+DESCRIPTION="SlimeVR Cli tool for SlimeVR server to send yaw and full reset requests"
 HOMEPAGE="https://github.com/lemonxah/slimevr-cli"
 SRC_URI="
 	https://github.com/lemonxah/slimevr-cli/archive/refs/tags/v${PV}.tar.gz -> ${P}.tar.gz
