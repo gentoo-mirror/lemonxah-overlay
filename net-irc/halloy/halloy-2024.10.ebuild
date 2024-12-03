@@ -618,7 +618,6 @@ fi
 # https://github.com/iced-rs/iced/blob/master/DEPENDENCIES.md
 BDEPEND="
 	virtual/pkgconfig
-	>=virtual/rust-1.78
 "
 DEPEND="
 	dev-libs/expat
