@@ -6,4 +6,4 @@ media-gfx/unityhub 3.4.1 3.4.2: The official unity tool for manager Unity Engine
 media-libs/openvr 2.5.1: OpenVR SDK
 media-sound/qpwgraph 0.7.4 0.7.7: A PipeWire Graph Qt GUI Interface
 net-im/discord 0.0.59: All-in-one voice and text chat for gamers
-net-irc/halloy 2024.10: IRC application written in Rust
+net-irc/halloy 2024.10 2024.14: IRC application written in Rust
