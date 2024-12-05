@@ -18,6 +18,7 @@ DEPEND="
 	virtual/jdk
 	net-libs/webkit-gtk
 	net-dns/avahi
+	media-libs/gst-plugins-good
 "
 RDEPEND="${DEPEND}"
 BDEPEND=""
