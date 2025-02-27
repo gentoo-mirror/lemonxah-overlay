@@ -1,3 +1,4 @@
+app-containers/lazydocker 9999: Lazier way to manage everything docker
 app-misc/kmonad 0.4.1.1_pre20220821: Advanced keyboard remapping utility
 app-misc/slimevr-bin 0.13.2: SlimeVR Server for SlimeVR Full-Body Tracking.
 app-misc/slimevr-cli 1.0.1: SlimeVR Cli tool for SlimeVR server to send yaw and full reset requests
