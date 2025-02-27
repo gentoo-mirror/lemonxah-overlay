@@ -12,7 +12,7 @@ HOMEPAGE="https://github.com/jesseduffield/lazydocker"
 
 LICENSE="MIT"
 SLOT="0"
-RESTRICT="test"
+RESTRICT=""
 
 src_unpack() {
 	git-r3_src_unpack
