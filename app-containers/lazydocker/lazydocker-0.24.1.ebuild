@@ -3,26 +3,24 @@
 
 EAPI=8
 
-EGIT_REPO_URI="https://github.com/jesseduffield/${PN}.git"
+inherit go-module
 
-inherit git-r3 go-module
+COMMIT="be05115"
 
 DESCRIPTION="Lazier way to manage everything docker"
 HOMEPAGE="https://github.com/jesseduffield/lazydocker"
+SRC_URI="https://github.com/jesseduffield/${PN}/archive/v${PV}.tar.gz -> ${P}.tar.gz"
 
 LICENSE="MIT"
 SLOT="0"
-RESTRICT=""
-
-src_unpack() {
-	git-r3_src_unpack
-}
+KEYWORDS="~amd64 ~x86"
+RESTRICT="test"
+PROPERTIES="test_network"
 
 src_compile() {
 	DATE="$(date -u '+%Y-%m-%d-%H%M UTC')"
-	COMMIT="$(git rev-parse --short HEAD)"
 	LDFLAGS="-s -w -X main.version=${PV} -X \"main.date=${DATE}\"
-		-X main.buildSource=git -X main.commit=${COMMIT}"
+		-X main.buildSource=tarball -X main.commit=${COMMIT}"
 
 	GOFLAGS="-v -x -mod=vendor" ego build -ldflags "${LDFLAGS}"
 }
