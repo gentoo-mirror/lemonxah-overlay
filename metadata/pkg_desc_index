@@ -4,7 +4,6 @@ app-misc/slimevr-bin 0.13.2: SlimeVR Server for SlimeVR Full-Body Tracking.
 app-misc/slimevr-cli 1.0.1: SlimeVR Cli tool for SlimeVR server to send yaw and full reset requests
 dev-util/postman 11.9.0: Build, test, and document your APIs faster
 media-gfx/unityhub 3.4.1 3.4.2: The official unity tool for manager Unity Engines and projects
-media-libs/openvr 2.5.1: OpenVR SDK
 media-sound/qpwgraph 0.7.4 0.7.7: A PipeWire Graph Qt GUI Interface
 net-im/discord 0.0.59: All-in-one voice and text chat for gamers
 net-irc/halloy 2024.10 2024.14: IRC application written in Rust
